@@ -7,13 +7,13 @@ from keras.models import Sequential
 from keras.layers import Dropout, Flatten, Dense
 
 # path to the model weights files.
-weights_path = '../keras/examples/vgg16_weights.h5'
+weights_path = ' path vgg16_weights.h5'
 top_model_weights_path = 'fc_model.h5'
 # dimensions of our images.
 img_width, img_height = 24, 24
 
-train_data_dir = '/Users/nicolomorando/Desktop/tmp/PHD/EyeBlinking/facialLandmark2/train1'
-validation_data_dir = '/Users/nicolomorando/Desktop/tmp/PHD/EyeBlinking/facialLandmark2/test1'
+train_data_dir = 'path train data'
+validation_data_dir = 'path val data'
 nb_train_samples = 1000
 nb_validation_samples = 800
 epochs = 50
