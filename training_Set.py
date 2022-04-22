@@ -8,8 +8,8 @@ from keras import backend as K
 # dimensions of our images.
 img_width, img_height = 24,24
 
-train_data_dir = 'test1'
-validation_data_dir = 'train1'
+train_data_dir = 'path train '
+validation_data_dir = 'path val'
 nb_train_samples = 1100
 nb_validation_samples = 500
 epochs = 500
