@@ -1,6 +1,6 @@
 import tensorflow as tf
-train_dir ='/Users/nicolomorando/Downloads/dataset/train'
-test_dir  ='/Users/nicolomorando/Downloads/dataset/test'
+train_dir ='path train'
+test_dir  ='path test'
 width, height = 86, 86
 training=tf.keras.preprocessing.image.ImageDataGenerator(rescale=1/255.0,
                                                           rotation_range=7,
